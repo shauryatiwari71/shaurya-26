@@ -1,0 +1,45 @@
+.box-model-container{
+    height:230px;
+    width:250px;
+    border:2px solid black;
+    text-align:center;
+    justify-self: center;
+    padding: 20px;
+    background-color: green;
+}
+.margin-box{
+    height:180px;
+    width:200px;
+    border:2px solid black;
+    text-align:center;
+    justify-content: center;
+    padding:20px;
+    background-color: yellow;
+}
+.border-box{
+    height:130px;
+    width:150px;
+    border:2px solid black;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+    background-color: blue;
+}
+.padding-box{
+    height:90px;
+    width:100px;
+    border:2px solid black;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+    background-color: chocolate;
+}
+.content-box{
+    height:30px;
+    width:50px;
+    border:2px solid black;
+    text-align: center;
+    justify-content: center;
+    padding:20px;
+    background-color: purple;
+}
