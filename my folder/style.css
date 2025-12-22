@@ -1,0 +1,71 @@
+h1{
+    background-color: chocolate;
+    color:#ffff00;
+    height:200px;
+    width:1500px;
+    /* border-color:black;
+    border-style:dashed;
+    border-width:5px; */
+    border:5px dashed black;
+     border-radius:500px;
+     /* border radius used for round boxes or border */
+     /* padding-left: 20px;
+     padding-bottom:20px;
+     padding-right:20px;
+     padding-top:20px; */
+     padding:50px;
+     /* all direcn padding(top,right,bottom,left)clockwise {same process for margin}*/
+}
+p{
+    color:#ff0000;
+    font-weight:900;
+    font-family:monospace;
+    border:5px dashed black;
+    padding:100px 2px 3px 4px;
+    margin:200px 200px 5px 6px;
+}
+button{
+    color:purple;
+    background-color: aqua;
+}
+body{
+    background-color:rgb(128, 128, 128);
+}
+#heading1{
+    color:pink;
+    font-weight:bold;
+}
+.gajab{
+    color:white;
+}
+h4,h5{
+    color:orange;
+
+}
+h1{
+    text-align:center;
+    font-size:50px;
+    line-height:200px;
+    text-transform:uppercase;
+}
+h3{
+    text-align:center;
+}
+h4{
+    text-decoration:underline;
+    color:blue;
+    text-transform:capitalize;
+}
+h6{
+    text-decoration:yellow line-through;
+}
+a{
+    text-decoration:none;
+}
+/* by none,underline from google disappears */
+/* range of font-weight:100 to 900 */
+/* 1 inch(2.54cm)= 96px */
+/* line height is how much space a single line is taking */
+/* text-allign mtlb jitna usko space diya gya hai uske beech me aaye jaise ki agar wo border me band hai toh border ke beech me aa jaye  */
+/* padding is distance b/w content and border */
+
