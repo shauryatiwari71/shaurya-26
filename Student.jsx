@@ -1,0 +1,14 @@
+import React from 'react'
+
+function student(props) {
+  return (
+    <div className="Student-info">
+      <h2>Name:{props.name}</h2>
+      <p>Course:{props.course}</p>
+      <p>Marks:{props.marks}</p>
+
+    </div>
+  )
+}
+
+export default student
