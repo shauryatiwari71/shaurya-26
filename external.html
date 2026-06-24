@@ -3,39 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet"href="product grid.css">
+    <title>Student Marks Calculator</title>
 </head>
+<style>
+    body{
+        background-color: greenyellow;
+        text-align: center;
+    }
+</style>
 <body>
-    <h1 class="title">Responsive Product Grid</h1>
-
-  <div class="product-grid">
-    <div class="product-card">
-      <h3>Product 1</h3>
-      <p>High-quality item with great features.</p>
-      <span>₹899</span>
-    </div>
-
-    <div class="product-card">
-      <h3>Product 2</h3>
-      <p>Durable and stylish for daily use.</p>
-      <span>₹799</span>
-    </div>
-
-    <div class="product-card">
-      <h3>Product 3</h3>
-      <p>Lightweight and comfortable.</p>
-      <span>₹1299</span>
-    </div>
-
-    <div class="product-card">
-      <h3>Product 4</h3>
-      <p>Trendy design with premium quality.</p>
-      <span>₹999</span>
-    </div>
-  </div>
-  
-<hr>
-<p>shaurya tiwari<br>cse-26<br>2025b01010516</p>
+    <h2>Student Marks Calculator</h2>
+    <script>
+        var subjects=prompt("Enter the No. of Subjects");
+        var total=0;
+        for(var i=1;i<=subjects;i++){
+            var marks=prompt("Enter the marks of Subjects"+i);
+            total=total+Number(marks);
+        }
+        var average=total/subjects;
+        var grade;
+        var result;
+        if(average>=60){
+            grade="A";
+            result="Pass";
+        }
+        else if(average>=50){
+            grade="B";
+            result="Pass";
+        }
+        else if(average>=40){
+            grade="C";
+            result="Pass";
+        }
+        else{
+            grade="D";
+            result="fail";
+        }
+        document.write("Total Marks="+total+"<br>");
+        document.write("Average Marks="+average+"<br>");
+        document.write("Grade="+grade+"<br>");
+        document.write("Result="+result);
+    </script>
 </body>
 </html>
